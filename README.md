@@ -34,7 +34,7 @@ new ListFilter(document.querySelector('.js-search'), document.querySelector('.js
 
 ## Custom search function
 
-It is possible to use a custom search function. For example the excellent (Fuzzysearch)[https://github.com/bevacqua/fuzzysearch]:
+It is possible to use a custom search function. For example the excellent [Fuzzysearch](https://github.com/bevacqua/fuzzysearch):
 
 This function is called with the the input value, and should return a function that accepts the content of the list item.
 

@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+    body {
+      padding: 0 10px;
+    }
+    .hidden {
+      display: none;
+    }
+    </style>
+  </head>
+  <body>
+
+    <h1>ListFilter</h1>
+
+    <p>Simple list filter</p>
+
+    <p>
+      <input type="text" name="seach" value="" class="js-search" placeholder="Search">
+    </p>
+
+    <p>
+      <ul class="js-list">
+        <li>Lorem ipsum</li>
+        <li>Ipsum dolore</li>
+        <li>Dolore sit</li>
+        <li>Sit amet</li>
+        <li>Amet lorem</li>
+      </ul>
+    </p>
+
+    <script src="src/list-filter.js"></script>
+    <script>
+
+    new ListFilter(document.querySelector('.js-search'), document.querySelector('.js-list'));
+    </script>
+  </body>
+</html>

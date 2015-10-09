@@ -43,7 +43,7 @@ new ListFilter(document.querySelector('.js-search'), document.querySelector('.js
   search: function(needle) {
     needle = needle.toLowerCase();
     return function(haystack) {
-      return fuzzysearch(needle, haystack.toLowerCase);
+      return fuzzysearch(needle, haystack.toLowerCase());
     };
   }
 });

@@ -33,7 +33,7 @@
       classList.push('hidden');
     }
     if (!toggle && ~index) {
-      classList = classList.splice(index - 1, 1);
+      classList.splice(index, 1);
     }
     el.className = classList.join(' ');
   }
